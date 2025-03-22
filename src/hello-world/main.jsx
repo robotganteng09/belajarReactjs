@@ -4,6 +4,7 @@ import Container from "./Container.jsx";
 import Todolist from "../todolist/Todolist.jsx";
 import Table from "../table/Table.jsx";
 import AlertButton from "../button/alertButton.jsx";
+import MyButton from "../button/MyButton.jsx";
 
 
 createRoot(document.getElementById("root")).render(
@@ -12,6 +13,7 @@ createRoot(document.getElementById("root")).render(
         <HelloWorld/>
         <Todolist/>
        <AlertButton text= "click me" message="lu ganteng"/>
+    <MyButton text="pukul akau" onSmash={() => alert("kamu memukul akau")}/>
         <Table/>
     </Container>
   
