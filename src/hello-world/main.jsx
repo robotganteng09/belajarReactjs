@@ -7,6 +7,8 @@ import AlertButton from "../button/alertButton.jsx";
 import MyButton from "../button/MyButton.jsx";
 import Toolbar from "../button/Toolbar.jsx";
 import SearchForm from "../form/SearchForm.jsx";
+import SayHello from "../form/SayHello.jsx";
+import Counter from "../form/Counter.jsx";
 
 
 createRoot(document.getElementById("root")).render(
@@ -22,6 +24,8 @@ createRoot(document.getElementById("root")).render(
             alert("Toolbar")
         }}/>
         <SearchForm/>
+        <SayHello/>
+        <Counter/>
     </Container>
   
 );
